@@ -11,7 +11,7 @@ public class BubbleSort {
         int last = size - 1;
         do {
             swap = false;
-            for (int count = 0; count < last - 1; count++) {
+            for (int count = 0; count <= last - 1; count++) {
                 int comp = array[count].compareTo(array[count + 1]);
                 if (comp > 0) {
                     T temp = array[count];
