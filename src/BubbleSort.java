@@ -24,7 +24,7 @@ public class BubbleSort {
     }
 
     public static <T extends Comparable<T>> void main(String args[]) {
-        String[] aux= {"1","0","0","0","2","0"};
+        String[] aux= {"8","7","6","5","4","9"};
         BS(aux, aux.length);
         for(int i=0; i<aux.length; i++)
             System.out.print(aux[i]);
