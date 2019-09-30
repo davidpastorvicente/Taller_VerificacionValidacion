@@ -35,4 +35,8 @@ public class Goldbach {
         }
         return false;
     }
+
+    public static void main(String args[]) {
+        checkGoldbach(23);
+    }
 }
