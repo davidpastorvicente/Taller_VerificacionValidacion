@@ -20,7 +20,7 @@ public class Goldbach {
      * Checks Goldbach conjecture for n, that is, checks if the even number n
      * can be written as the sum of two prime numbers.
      * <p>
-     * If n is odd, it returs automatically true.
+     * If n is even, it returs automatically true.
      *
      * @param n Number to be checked.
      * @return True if n can be decomposed as sum of prime numbers, false if
