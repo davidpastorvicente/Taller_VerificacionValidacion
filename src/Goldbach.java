@@ -37,6 +37,6 @@ public class Goldbach {
     }
 
     public static void main(String args[]) {
-        System.out.print(isPrime(4));
+        System.out.println(checkGoldbach(23));
     }
 }
