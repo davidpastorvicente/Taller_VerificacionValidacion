@@ -8,7 +8,7 @@ public class Goldbach {
      * @return True if n is prime, false if not.
      */
     public static boolean isPrime(Integer n) {
-        for (int p = 2; p < Math.sqrt(n) - 1; p++) {
+        for (int p = 2; p < n; p++) {
             if (n % p == 0) {
                 return false;
             }
