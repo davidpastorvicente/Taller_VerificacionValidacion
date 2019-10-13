@@ -22,8 +22,10 @@ public class Stack {
         if (top >= MAX_SIZE) {
             System.out.println("The stack is full");
         }
-        arrayStack[this.top] = element;
-        top++;
+        else {
+            arrayStack[this.top] = element;
+            top++;
+        }
     }
 
     /**
