@@ -8,7 +8,7 @@ public class Stack {
      */
     public Stack() {
         this.arrayStack = new Integer[MAX_SIZE];
-        this.top = 1;
+        this.top = 0;
     }
 
     /**
